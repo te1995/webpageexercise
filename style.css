@@ -45,9 +45,7 @@ a {
     color: white;
 }
 
-.content {
-    flex: 1;
-}
+
 
 .firstrow {
     display: flex;
@@ -56,9 +54,10 @@ a {
     color: white;
     padding-left: 300px;
     padding-right: 300px;
-    min-height: 250px;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 30px;
+    gap: 15px;
 }
 
 .header {
@@ -69,13 +68,13 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 500px;
+    justify-content: space-between;
 }
 
 .cta {
     background-color: #3882F6;
     max-width: fit-content;
     padding: 0.4em 1.2em;
-    margin-top: 80px;
     border-radius: 10px;
 }
 
@@ -96,15 +95,18 @@ a {
     flex-direction: column;
     padding-left: 300px;
     padding-right: 300px;
-    padding-top:20px;
+    padding-top:30px;
     align-items: center;
     gap: 20px;
+    padding-bottom: 60px;
 }
 
 .imgreel {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
+    gap: 20px;
 }
 
 .img-item {
@@ -118,4 +120,54 @@ a {
 
 .img-item p {
     max-width: 200px;
+}
+
+.thirdrow {
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify; 
+    align-items: center;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top:70px;
+    padding-bottom: 70px;
+    text-align: justify;    
+    min-width: 300px;
+}
+
+.thirdrow .author {
+    align-self: flex-end;
+    font-weight: bold;
+    text-align: left; 
+}
+
+.text {
+    gap: 30px;
+}
+
+.callta {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textfeld {
+    background-color: #3882F6;
+    display: flex;
+    padding: 30px;
+    color: white;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.callta .cta {
+    border: 2px solid white;
+    height: 20px;
 }
